@@ -1,0 +1,55 @@
+#pageName {
+  vertical-align: middle;
+  color: #FFFFFF;
+  text-align: center;
+}
+#topMenu {
+  height: 30px;
+  text-align: center;
+}
+
+#topMenu ul li {
+  list-style: none;
+  background-color: #336600;
+  float: left;
+  line-height: 30px;
+  border-left: 1px solid #000000
+}
+
+#topMenu .menu {
+  text-decoration: none;
+  color: #ddaa6f;
+  display: inline-block;
+  width: 300px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#topMenu .menu:hover {
+  color: #880000;
+  background-color: #336622;
+}
+#main {
+  color: #aa886f;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+
+#files ul li {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+#factLinks ul li {
+  list-style: none;
+  color: #da70d6;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 400px;
+}
