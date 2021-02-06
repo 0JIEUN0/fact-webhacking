@@ -14,11 +14,11 @@ function getCookie(cName){
 function downTestFile() {
   //location.href = 'https://drive.google.com/u/0/uc?id=1mQwvPBx4rH68Hd0PeMuq0ywQEH4H4SJi&export=download';
   console.log(document.cookie);
-  console.log(getCookie("user_id"));
+  console.log(getCookie('user_id'));
 }
 
 function downREVFile() {
-  var user_id = getCookie("user_id");
+  var user_id = getCookie('user_id');
   if(user_id === "guest"){
     alert("Access Denied :: YOU ARE NOT ADMIN");
   }
