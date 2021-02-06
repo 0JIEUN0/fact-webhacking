@@ -7,7 +7,7 @@ function setCookie(cName, cValue, cDay){
 
 function getCookie(cName){
     var cookies = document.cookie.replace(" ", "").split(';');
-    var user_id = cookies.find(element => element.split('=')[0] === cName);
+    var user_id = cookies.find(element => element.split('=')[0] == cName);
     return user_id.split('=')[1];
 }
 
