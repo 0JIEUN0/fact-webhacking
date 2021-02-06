@@ -53,3 +53,12 @@
   margin-top: 30px;
   margin-left: 400px;
 }
+
+.fileDownBtn {
+  margin-left: 20px;
+}
+
+.fileDownBtn:hover {
+  color: blue;
+  background-color: #808080
+}
