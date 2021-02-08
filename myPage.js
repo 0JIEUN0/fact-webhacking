@@ -19,7 +19,7 @@ function downTestFile() {
 function downREVFile() {
   var user_id = atob(getCookie('user_id'));
   if(user_id == "admin"){
-    location.href = 'https://drive.google.com/u/0/uc?id=1dN_mvg2-QyyZLDLTeIzAapC5eskqtajJ&export=download%';
+    location.href = 'https://drive.google.com/u/0/uc?id=1dN_mvg2-QyyZLDLTeIzAapC5eskqtajJ&export=download';
   }
   else {
     alert("Access Denied :: YOU ARE NOT ADMIN");
