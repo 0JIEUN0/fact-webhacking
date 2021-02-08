@@ -19,8 +19,7 @@ function downTestFile() {
 function downREVFile() {
   var user_id = atob(getCookie('user_id'));
   if(user_id == "admin"){
-    // download Reversing file ! -> have to change link
-    location.href = 'https://drive.google.com/u/0/uc?id=1mQwvPBx4rH68Hd0PeMuq0ywQEH4H4SJi&export=download';
+    location.href = 'https://drive.google.com/u/0/uc?id=1dN_mvg2-QyyZLDLTeIzAapC5eskqtajJ&export=download%';
   }
   else {
     alert("Access Denied :: YOU ARE NOT ADMIN");
